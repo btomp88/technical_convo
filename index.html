@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OM</title>
+    <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript" src = "jquery.js"></script>
+    <script type = "text/javascript" src = "js.js"></script>
+</head>
+<body>
+
+<img id = "purpleOrb" src = "purple.png" alt = "purple orb">
+<img id = "elephant" src = "elephant2.png" alt = "elephant">
+
+<H1 id = "main-heading"><b><i>A Somewhat Technical Conversation</i></b></H1>
+<h4>by: Ben Tompkins</h4>
+
+<br>
+
+<div id = "newConvo">
+    <button id = "convo" onclick="fadeOut()"><b>press 4 new convo<b></button>
+</div>
+
+<br>
+
+<div class = "row">
+    <div class = "column" id = "yogaDiv">
+        <div id = "yogaPic">
+            <img src = "yogananda.jpg" alt = "Yogananda Standing with Cane" class = "saints">
+            <br>
+            <button onclick="yogananda()">Yogananda</button>
+        </div>
+        <p id = "yoganandaWords"></p>
+    </div>
+
+    <div class = "column" id = "manDiv">
+        <img src = "undergroundMan.jpg" alt = "Empty Man Staring" class = "dark">
+        <br>
+        <button onclick = "undergroundMan()">The Underground Man</button>
+        <p id = "undergroundManWords"></p>
+    </div>
+
+    <div class = "column" id = "jesusDiv">
+        <img src = "jesus.jpg" alt = "Jesus Meditating" class = "saints">
+        <br>
+        <button onclick = "jesus()">Jesus</button>
+        <p id = "jesusWords"></p>
+    </div>
+</div>
+
+</body>
+</html>

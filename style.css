@@ -1,0 +1,50 @@
+h1, h4 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+
+}
+
+ #yoganandaWords, #jesusWords {
+    color: saddlebrown;
+}
+
+.saints:hover {
+    filter: brightness(300%);
+}
+
+.dark:hover {
+    filter: brightness(50%);
+}
+
+.saints, .dark {
+    border-radius: 10px;
+}
+
+#newConvo {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+#convo {
+    background-color: blanchedalmond;
+    color: slategray;
+    height:30px;
+    width:125px;
+    border-radius: 25px;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
